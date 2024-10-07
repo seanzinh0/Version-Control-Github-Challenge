@@ -1,0 +1,28 @@
+1- Terminal is a way for users to use commands to communicate with their computers. A terminal uses something called a shell that interperets these commands to be able to give the user what they want to do.
+For example terminal can be used to create directories, files, and even edit files as well. I used nano to be able to edit this text file. People also use vim which is a code editor to work on projects. I use linux on my personal laptop so having terminal is very important to install packages, apps, and navigate files and directories. Package managers are also helpful in a terminal to be able to download packages from different repositories. I actually put homebrew on this Mac and used it to install git.
+
+2- The major difference is that Git is the actual tool that does the version control and allows you to collaborate with others, push and pull code, and create repos. Github however is just the website that hosts repositories. Git is the tool and Github helps display the tool on a website.
+Because Github is a website, it gives users a visual aid in seeing what is going on with projects. Github also allows for greater collaboration because it allows for others to see your repos and access them.
+
+3- A fork in a repository is to try out new features that could possibly be used in the main branch. It is essentially a new branch that forks of from the main one.
+Fork is not an actual feature in git, however it is for Github.
+Steps to fork a repository:
+1- Go to a repository of your choice.
+2- There will be a be an area that says Fork click the drop down menu on the right
+3- Next, create a new fork make sure to copy the main branch only. If you don't then all branches will be copied from that repository.
+4- Now that the repository is forked it is time to clone it.
+5- Go to the forked repository and your going to go to the green button that says code.
+6- Click the button and copy the HTTPS url.
+7- Now open your terminal and type "git clone" with the url that you copied at the end.
+8- You have successfully cloned the forked repository.
+9- Additionally you can also sync the forked repository with the upstream one.
+10- To do this first get the url to the upstream repository using steps 5-6.
+11- Next open up terminal and change directories to the forked one. Use the cd command with the name of the directory you forked.
+12- Now that you are in the forked directory use the command "git remote -v" this shows the remote repository for the fork.
+13- Type the command "git remote add upstream" with the url in step 10.
+14- The upstream repository is now synced to your forked one. You can create branches to try new ideas or even submit a pull request to have your forked repository be part of the upstream one.
+
+Thank you for reading!!
+(this file was edited using nano)
+
+-Sean Pichay
