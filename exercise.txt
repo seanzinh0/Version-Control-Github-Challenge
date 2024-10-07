@@ -1,8 +1,10 @@
 1- Terminal is a way for users to use commands to communicate with their computers. A terminal uses something called a shell that interperets these commands to be able to give the user what they want to do.
-For example terminal can be used to create directories, files, and even edit files as well. I used nano to be able to edit this text file. People also use vim which is a code editor to work on projects. I use linux on my personal laptop so having terminal is very important to install packages, apps, and navigate files and directories. Package managers are also helpful in a terminal to be able to download packages from different repositories. I actually put homebrew on this Mac and used it to install git.
+For example terminal can be used to create directories, files, and even edit files as well. I used nano to be able to edit this text file. 
+People also use vim which is a code editor to work on projects. I use linux on my personal laptop so having terminal is very important to install packages, apps, and navigate files and directories. Package managers are also helpful in a terminal to be able to download packages from different repositories. I actually put homebrew on this Mac and used it to install git.
 
 2- The major difference is that Git is the actual tool that does the version control and allows you to collaborate with others, push and pull code, and create repos. Github however is just the website that hosts repositories. Git is the tool and Github helps display the tool on a website.
-Because Github is a website, it gives users a visual aid in seeing what is going on with projects. Github also allows for greater collaboration because it allows for others to see your repos and access them.
+Because Github is a website, it gives users a visual aid in seeing what is going on with projects. 
+Github also allows for greater collaboration because it allows for others to see your repos and access them.
 
 3- A fork in a repository is to try out new features that could possibly be used in the main branch. It is essentially a new branch that forks of from the main one.
 Fork is not an actual feature in git, however it is for Github.
