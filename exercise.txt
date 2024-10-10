@@ -11,7 +11,7 @@ Github also allows for greater collaboration because it allows for others to see
 
 3- A fork in a repository is to try out new features that could possibly be used in the main branch. It is essentially a new branch that forks of from the main one.
 Fork is not an actual feature in git, however it is for Github.
-Steps to fork a repository:
+Steps to fork a repository using web browser:
 1- Go to a repository of your choice.
 2- There will be a be an area that says Fork click the drop down menu on the right
 3- Next, create a new fork make sure to copy the main branch only. If you don't then all branches will be copied from that repository.
@@ -26,6 +26,14 @@ Steps to fork a repository:
 12- Now that you are in the forked directory use the command "git remote -v" this shows the remote repository for the fork.
 13- Type the command "git remote add upstream" with the url in step 10.
 14- The upstream repository is now synced to your forked one. You can create branches to try new ideas or even submit a pull request to have your forked repository be part of the upstream one.
+
+Steps to fork a repository using Command Line Interface(CLI)
+1-use the subcommand "gh repo fork REPOSITORY"
+2-clone the forked repository "gh repo fork REPOSITORY --clone=true"
+3-sync forked repository with upstream repository
+4-use this command to sync "gh repo for REPOSITORY --remote=true"
+5-use --remote-name to specify remote repository's name
+6-you have forked a repo using terminal!
 
 Thank you for reading!!
 (this file was edited using nano)
